@@ -123,6 +123,15 @@ p {
     color: var(--text);
 }
 
+.inline-link {
+    color: var(--secondary-text);
+    font-weight: 600;
+}
+
+.inline-link:hover {
+    color: var(--text);
+}
+
 footer {
     padding: 25px 0 40px;
     border-top: 1px solid var(--border);
@@ -176,6 +185,12 @@ footer a:hover {
     margin: 15px 0 5px;
     font-size: 0.9rem;
     color: var(--secondary-text);
+}
+
+.transcription {
+    margin: 0 0 20px;
+    color: var(--secondary-text);
+    font-style: italic;
 }
 
 audio {
